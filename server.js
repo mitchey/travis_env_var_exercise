@@ -7,7 +7,7 @@ async function main() {
   const username = process.env.DOCKER_USERNAME;
   while(true) {
     console.log("Microservices rock!");   
-    console.log(`My favorite food is ${username}`);
+    console.log(`My favorite username is ${username}`);
     await sleep(5000);
   }
 }
